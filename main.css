@@ -3,14 +3,51 @@ body {
   font-family: "Pirata One", serif;
   font-weight: 400;
   font-style: normal;
+  position: relative; 
 }
-
+/* first name last name */
 h1 {
-  font-weight: 500;
-  font-size: 50px;
+  text-align: center; 
+  font-weight: 50;
+  font-size: 90px;
+  color: rgba(28, 110, 152, 0.578);
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  margin-top: 500px;
+  mix-blend-mode: multiply;
 }
+/* title graphic designer */
 h2 {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 50px;
+  color: rgba(28, 110, 152, 0.578);
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  margin-top: 600px;
+  mix-blend-mode: multiply;
+}
+img {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  margin-top: 150px;
+  mix-blend-mode: multiply;
 }
 
+.icon-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  width: 25%;
+  
+}
+.icon-container img {
+  width: 100%;
+  height: auto;
+  position: static; /* Ensure the images are positioned statically */
+  margin-left: 40px;
+  margin-top: 2px;
+}
