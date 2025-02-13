@@ -1,15 +1,16 @@
-body{ background-image:url(images/background.png);
-        font-family: "Pirata One", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-       
+body {
+  background-image: url(images/background.png);
+  font-family: "Pirata One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-h1{
-    font-weight: 500;
-    font-size: 50px;
+h1 {
+  font-weight: 500;
+  font-size: 50px;
 }
-h2{
-    font-weight: 500;
-    font-size: 30px;
+h2 {
+  font-weight: 500;
+  font-size: 30px;
 }
+
