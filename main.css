@@ -4,6 +4,8 @@ body {
   font-weight: 400;
   font-style: normal;
   position: relative; 
+  mix-blend-mode: multiply;
+  cursor: url("images/mockupsmall.png"), auto;
 }
 /* first name last name */
 h1 {
@@ -13,7 +15,7 @@ h1 {
   color: rgba(28, 110, 152, 0.578);
   position: absolute;
   left: 50%; 
-  transform: translateX(-50%);
+  transform: translateX(-50%);                                                                                                
   margin-top: 500px;
   mix-blend-mode: multiply;
 }
