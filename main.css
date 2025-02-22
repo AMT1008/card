@@ -65,10 +65,20 @@ img {
     width: 200%; 
     height: auto;
     display: block;
-    transform: translateY(-20%); /* Adjust the Y translation to control vertical cropping */
+    transform: translateY(-60%); /* Adjust the Y translation to control vertical cropping */
   }
 
   .card {
     top: 600px; /* Adjust the top position for mobile */
+  }
+  icon-container {
+    width: 100%; /* Adjust the width of the icon container for mobile */
+  }
+
+  .icon-container img {
+    width: 80px; /* Adjust the width of the SVG images for mobile */
+    height: 80px; /* Adjust the height of the SVG images for mobile */
+    margin-left: 0; /* Adjust the margin for mobile */
+    margin-top: 0; /* Adjust the margin for mobile */
   }
 }
