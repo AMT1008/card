@@ -54,19 +54,28 @@ img {
   margin-top: 2px;
 }
 @media (max-width: 768px) {
-
   .svg-background {
     width: 50%; 
     left: 50%;
     transform: translateX(-50%);
   }
+  h1 { 
+    font-size: 50px; 
+    margin-top: 300px; 
+    position: absolute;
+  }
+  h2 { 
+    font-size: 20px; 
+    margin-top: 400px; 
+    position: absolute;
+  }
 
   .svg-background svg {
-          width: 200%; /* Adjust the width for mobile */
-          height: auto;
-          display: block;
-          transform: translateY(-20%); /* Adjust the Y translation to control vertical cropping */
-      }
+   width: 768px; /* Adjust the width for mobile */
+   height: auto;
+    display: block;
+   transform: translateY(300px); /* Adjust the Y translation to control vertical cropping */
+   }
 
   .card {
     top: 200px; /* Adjust the top position for mobile */
